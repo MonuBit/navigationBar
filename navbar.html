@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NavBar</title>
+
+    <link rel  = "stylesheet" href = "css/profilecss.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="navbar.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Montserrat&display=swap" rel="stylesheet">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+
+
+      <!-- <button type="button" id="sidebarCollapse" class="text-dark d-lg-none d-block border-0 shadow-none  btn bg-transparent">
+<i class="fas fa-align-left text-secondary fs-5"></i>
+</button> -->
+<a class="navbar-brand" id = "paddingLogo" href="#"><img id = "logo"width = "200px" height = "100px"src="https://www.lealmart.com/public/images/lealmart-logo.png" alt="lealmart-logo" class="img-fluid" title="lealmart-logo"></a>
+
+    <div class="input-group" id = "searchmargin">
+      <input id="search-input" type="search" class="form-control" placeholder="Search anything...">
+        <button id="search-button" type="button" class="btn btn-warning">
+        <i class="fa fa-search"></i>
+        </button>
+    </div>
+
+
+
+<table style="height: 0px;" class = " ml-auto" id = "tablemargin">
+  <tbody>
+    <tr>
+
+      <td class="align-top"><a class="nav-link " href="#" ><i class="far fa-bell fa-lg" ></i></a></td>
+      <td class="align-top">  <a class="nav-link" href="#" ><i class="far fa-user fa-lg" ></i></a></td>
+      <td class="align-top">  <a class="nav-link" href="#" id = "iconflex3"><i class="fas fa-shopping-cart fa-lg"></i></a> </td>
+
+
+    </tr>
+  </tbody>
+</table>
+
+<ul class="navbar-nav align-items-center mobile-navbar" id = "extrapart">
+  <li class="nav-item ">
+  <a class="nav-link" href="#">Login/Signup</a>
+</li>
+
+<li class="nav-item  " id = "locationlist">
+<a class="nav-link" href="#">Location<span class="sr-only">(current)</span></a>
+</li>
+
+
+</ul>
+
+<!-- <div class="collapse navbar-collapse middle-colaps" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center mobile-navbar">
+  <li class="nav-item ">
+  <a class="nav-link" href="#">Login/Signup</a>
+</li>
+
+<li class="nav-item  " id = "locationlist">
+<a class="nav-link" href="#">Location<span class="sr-only">(current)</span></a>
+</li>
+
+
+</ul>
+</div> -->
+
+
+  </nav>
+
+  <div class="page-wrapper chiller-theme toggled" id = "sidebarMobile">
+    <a id="show-sidebar" class="btn btn-sm btn-transparent" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar" class="sidebar-wrapper">
+      <div class="sidebar-content">
+        <div class="sidebar-brand">
+          <a href="#">lealmart</a>
+          <div id="close-sidebar">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="sidebar-header">
+          <div class="user-pic">
+
+          </div>
+          <div class="user-info" align-items ="left">
+
+            <ul align = "left">
+              <li class="nav-item " id = "loginmargin">
+              <a class="nav-link float-left" href="#" ><i class="fas fa-sign-in-alt"></i>&nbsp &nbspLogin/Signup</a>
+            </li>
+
+            <li class="nav-item  " id = "locationlist"align-items ="center">
+            <a class="nav-link" href="#"><i class="fas fa-location-arrow"></i>&nbsp &nbsp Location</a>
+            </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<script src="myscripts.js"></script>
+
+</body>
+
+</html>
